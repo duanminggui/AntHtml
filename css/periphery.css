@@ -1,0 +1,358 @@
+﻿*{
+    margin:0;
+    padding:0;
+    font-family:"微软雅黑 ";
+    list-style:none;
+}
+html, body {
+    background: #fff;
+}
+body {
+	background: #fff;
+	font-size: 14px;
+	color:#000;
+	margin: 0;
+	padding: 0;
+}
+/*--------社交顶部内容-------*/
+.sj_header{
+	background-color:#34394B;
+    height: 50px;
+    line-height: 50px;
+}
+.sj_header>ul>li{
+    float: left;
+    margin: 0 auto;
+}
+.sj_header>ul>li:nth-child(1){
+    width: 100%;
+}
+.sj_header>ul>li:nth-child(1) p{
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+}
+.sj_header>ul>li:nth-child(2){
+    position: absolute;
+    right: 0;
+}
+.sj_header>ul>li:nth-child(2) span{
+    padding-right: 15px;
+    font-size: 17px;
+    color: #ffffff;
+    margin-top: 15px;
+}
+.sj_header>ul>li a:link{
+    color: #fff;
+    text-decoration: none;
+}
+.sj_header>ul>li a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.sj_header>ul>li a:visited{
+    color: #fff;
+    text-decoration: none;
+}
+.tanchukuang{
+    background-color: #ffffff;
+}
+.tanchukuang{
+    position: fixed;
+    right: -2px;
+    background-color: rgba(0,0,0,0.7);
+    padding: 15px 15px 5px 15px;
+    z-index: 6666;
+    top: -200px;
+    border: 2px solid #eeeeee;
+    border-top: none;
+    font-size: 15px;
+    color: #fafafa;
+}
+.tanchukuang ul li{
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.tanchukuang ul li span{
+    margin-right: 8px;
+    font-size: 13px;
+    color: #eee;
+}
+
+@media(min-width:430px){
+
+}
+/*-------主体内容--------*/
+.my_con{
+    margin-top: 50px;
+    width: 100%;
+    padding: 0 10px;
+    margin-bottom: 50px;
+}
+.zb_one{
+    width: 100%;
+    padding: 10px 0 5px 0;
+    clear: both;
+}
+.zb_one input{
+    background-color:#F3F5F7 ;
+    border: none;
+    padding-left: 15px;
+    height: 35px;
+    width: 100%;
+    font-size: 14px;
+    border-radius: 4px;
+    position: relative;
+}
+.zb_one input:focus{
+    outline: none;
+}
+.zb_one a{
+    position: absolute;
+    top: 69px;
+    right: 25px;
+    color: #999;
+    z-index: 555;
+}
+.zb_two{
+    width: 100%;
+    clear: both;
+}
+.zb_two ul li p{
+    float: left;
+    border: 1px solid #F3F5F7;
+    width: 25%;
+    text-align: center;
+    border-left: none;
+    margin: 0;
+    border-bottom: none;
+    font-size: 13px;
+    color: #454545;
+    height: 70px;
+    line-height: 100px;
+    position: relative;
+}
+.zb_two ul li p:nth-child(1){
+    border-left: 1px solid #F3F5F7;
+}
+.zb_two ul li:last-child p{
+    border-bottom: 1px solid #F3F5F7;
+}
+.zb_two ul li p img{
+    position: absolute;
+    top: 8px;
+    left: 50%;
+    margin-left: -13px;
+    width: 25px;
+    height: 25px;
+}
+.zb_two ul li p i{
+    font-style: normal;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.zb_three{
+    width: 100%;
+    clear: both;
+    padding-top: 10px;
+}
+.zb_three>p{
+    width: 100%;
+    height: 35px;
+    font-size: 17px;
+    border-radius: 3px;
+    background-color:#F3F5F7;
+    line-height: 37px;
+    color: #34394B;
+    text-align: center;
+    margin-top: 5px;
+}
+.zb_three>ul>li{
+    border-bottom: 1px dashed #F3F5F7;
+    padding: 15px 0;
+    color: #454545;
+    position: relative;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.zb_three>ul>li:last-child{
+    border-bottom-width: 0;
+}
+.zb_three>ul>li:nth-child(1){
+    margin-top: -9px;
+}
+.zb_three>ul>li>p{
+    margin: 0;
+    width: 80%;
+}
+.zb_three>ul>li>p.over_zi img{
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    border: 1px solid #eeeeee;
+    margin-right: 15px;
+    float: left;
+}
+.zb_three>ul>li>p.over_zi span{
+    display: block;
+}
+.zb_three>ul>li>p.over_zi span:nth-child(2){
+    color: #454545;
+    font-size: 14px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.zb_three>ul>li>p.over_zi span:nth-child(3){
+    color: #999;
+    font-size: 13px;
+    margin-top: 3px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.zb_three>ul>li i{
+    position: absolute;
+    right: 15px;
+    font-size: 12px;
+    font-style: normal;
+    color: #999999;
+    top: 25px;
+}
+/*--------社交底部导航-------*/
+.sj_foot{
+    background-color: #fff;
+    color: #C3C6C9;
+    font-size: 13px;
+    text-align: center;
+    border-top: 1px solid #F3F5F7;
+    z-index: 7777;
+}
+.sj_foot ul li{
+    float: left;
+    width: 20%;
+    padding:6px 0 4px 0;
+    cursor: pointer;
+}
+.sj_foot ul li p{
+    margin: 0;
+    font-weight: bold;
+}
+.sj_foot ul li a:link{
+    color: #C3C6C9;
+    text-decoration: none;
+}
+.sj_foot ul li a:hover{
+    color: #C3C6C9;
+    text-decoration: none;
+}
+.sj_foot ul li a:visited{
+    color: #C3C6C9;
+    text-decoration: none;
+}
+.sj_foot ul li a span{
+    color: #B7BBBF;
+    font-size: 18px;
+    text-align: center;
+}
+.fabu_btn span{
+    font-size: 33px;
+    margin-top: 2px;
+    color:#34394B ;
+    z-index: 9999;
+}
+.fabu_con{
+    position: fixed;
+    bottom:-250px;
+    width: 100%;
+    height: 170px;
+    background-color:rgba(249, 249, 249,0.3);
+    z-index: 8888;
+    cursor: pointer;
+    padding-top: 15px;
+    box-shadow: 0 0 70px 5px rgba(249, 249, 249,0.3);
+}
+.fabu_con_list{
+    color: #666;
+    font-size: 14px;
+    padding: 0 28px;
+}
+.fabu_con_list .swiper-slide{
+    text-align: center;
+}
+.fabu_con_list .swiper-slide p{
+    width: 70px;
+    height: 70px;
+    margin:auto;
+    border-radius: 50%;
+    border: 1px solid #eee;
+    -webkit-box-shadow:0 5px 5px rgba(105,105,105, .5);
+    -moz-box-shadow:0 5px 5px rgba(105,105,105, .5);
+    box-shadow:0 5px 5px rgba(105,105,105, .5);
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+.fabu_con_list .swiper-slide p span{
+    display: block;
+    cursor: pointer;
+    font-size: 22px;
+    color: #FF284B;
+    margin-top: 12px;
+    margin-bottom: 4px;
+}
+.fabu_con_list .swiper-slide p i{
+    font-style: normal;
+    color: #666666;
+    font-size: 13px;
+}
+.fabu_dbclick{
+    position: absolute;
+    font-size: 33px;
+    color:#34394B ;
+    bottom: -2px;
+    width: 100%;
+    text-align: center;
+}
+.fabu_dbclick:hover{
+    color:#34394B ;
+}
+.fabu_dbclick:visited{
+    color:#34394B ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

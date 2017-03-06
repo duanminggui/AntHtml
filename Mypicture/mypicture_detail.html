@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+    <title>相册详情</title>
+    <link rel="stylesheet" type="text/css" href="mypicture.css">
+    <link rel="stylesheet" type="text/css" href="../public/swiper-3.4.1.min.css">
+    <link rel="stylesheet" type="text/css" href="../public/bootstrap.min.css">
+    <script src="../js/jquery-3.1.1.min.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/swiper-3.4.1.min%20(1).js"></script>
+    <link rel="stylesheet" type="text/css" href="../public/touchTouch.css">
+    <script src="../public/touchTouch.jquery.js"></script>
+    <script src="../js/main.js"></script>
+</head>
+<body>
+
+<!-------------- 相册详情 -------------->
+<div style="width:100%; height:100%;" class="pic_detail">
+    <!--------顶部内容-------->
+    <div class="navbar-fixed-top sj_header">
+        <ul class="all_ul">
+            <li>
+                <a href="javascript:history.back(-1)">
+                    <span class="glyphicon glyphicon-menu-left"></span>
+                </a>
+            </li>
+            <li><a href="mypicture.html"><p class="txt_p">我家大男神</p></a></li>
+            <li>
+                <a href="#">
+                    <span class="glyphicon glyphicon-option-horizontal" data-toggle="modal" data-target="#myModal"></span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!--------主体内容-------->
+    <div class="my_con">
+        <div class="we_bj">
+            <img src="../img/touxiang.jpeg" class="blur">
+            <div class="black_bj"></div>
+            <!--相册名-->
+            <p>我家大男神</p>
+            <!--浏览量-->
+            <div class="liulan">浏览量<span>455</span></div>
+        </div>
+        <!-- 上传照片 -->
+        <div class="shangchuan">
+            <p>上传照片/视频</p>
+        </div>
+        <div class="miaoshu">
+            <p><i>描述：</i><span>还无数可复用的组件，包括字体图标、下拉菜单、导航、警告框、弹出框等更多功能心无数可复用的组件，包括字体图标、下拉菜单、导航、警告框、弹出框等更多功能。</span></p>
+        </div>
+        <!-- 照片列表 -->
+        <div class="pic_list" id="thumbs" style="padding: 0 10px;margin-top: 0px;">
+            <div>
+                <p><i>2017-2-14</i><b>)</b></p>
+                <ul>
+                    <li><a href="../img/touxiang1.jpg" class="att"><img src="../img/touxiang1.jpg" class="img-responsive"></a></li>
+                    <li><a href="../img/touxiang1.jpg" class="att"><img src="../img/touxiang1.jpg" class="img-responsive"></a></li>
+                    <li><a href="../img/touxiang1.jpg" class="att"><img src="../img/touxiang1.jpg" class="img-responsive"></a></li>
+                    <div class="clearfix"></div>
+                </ul>
+                <ul>
+                    <li><a href="../img/touxiang1.jpg" class="att"><img src="../img/touxiang1.jpg" class="img-responsive"></a></li>
+                    <li><a href="../img/touxiang1.jpg" class="att"><img src="../img/touxiang1.jpg" class="img-responsive"></a></li>
+                    <li><a href="../img/touxiang1.jpg" class="att"><img src="../img/touxiang1.jpg" class="img-responsive"></a></li>
+                    <div class="clearfix"></div>
+                </ul>
+            </div>
+            <div>
+                <p><i>2017-2-14</i><b>)</b></p>
+                <ul>
+                    <li><a href="../img/touxiang2.jpg" class="att"><img src="../img/touxiang2.jpg" class="img-responsive"></a></li>
+                    <li><a href="../img/touxiang2.jpg" class="att"><img src="../img/touxiang2.jpg" class="img-responsive"></a></li>
+                    <li><a href="../img/touxiang2.jpg" class="att"><img src="../img/touxiang2.jpg" class="img-responsive"></a></li>
+                    <div class="clearfix"></div>
+                </ul>
+                <ul>
+                    <li><a href="../img/touxiang2.jpg" class="att"><img src="../img/touxiang2.jpg" class="img-responsive"></a></li>
+                    <li><a href="../img/touxiang2.jpg" class="att"><img src="../img/touxiang2.jpg" class="img-responsive"></a></li>
+                    <li><a href="../img/touxiang2.jpg" class="att"><img src="../img/touxiang2.jpg" class="img-responsive"></a></li>
+                    <div class="clearfix"></div>
+                </ul>
+            </div>
+            <div>
+                <p><i>2017-2-14</i><b>)</b></p>
+                <ul>
+                    <li><a href="../img/touxiang1.jpg" class="att"><img src="../img/touxiang1.jpg" class="img-responsive"></a></li>
+                    <li><a href="../img/touxiang1.jpg" class="att"><img src="../img/touxiang1.jpg" class="img-responsive"></a></li>
+                    <li><a href="../img/touxiang1.jpg" class="att"><img src="../img/touxiang1.jpg" class="img-responsive"></a></li>
+                    <div class="clearfix"></div>
+                </ul>
+                <ul>
+                    <li><a href="../img/touxiang2.jpg" class="att"><img src="../img/touxiang2.jpg" class="img-responsive"></a></li>
+                    <li><a href="../img/touxiang2.jpg" class="att"><img src="../img/touxiang2.jpg" class="img-responsive"></a></li>
+                    <li><a href="../img/touxiang2.jpg" class="att"><img src="../img/touxiang2.jpg" class="img-responsive"></a></li>
+                    <div class="clearfix"></div>
+                </ul>
+                <ul>
+                    <li><a href="../img/touxiang3.jpg" class="att"><img src="../img/touxiang3.jpg" class="img-responsive"></a></li>
+                    <li><a href="../img/touxiang3.jpg" class="att"><img src="../img/touxiang3.jpg" class="img-responsive"></a></li>
+                    <li><a href="../img/touxiang3.jpg" class="att"><img src="../img/touxiang3.jpg" class="img-responsive"></a></li>
+                    <div class="clearfix"></div>
+                </ul>
+                <ul>
+                    <li><a href="../img/touxiang1.jpg" class="att"><img src="../img/touxiang1.jpg" class="img-responsive"></a></li>
+                    <li><a href="../img/touxiang1.jpg" class="att"><img src="../img/touxiang1.jpg" class="img-responsive"></a></li>
+                    <li><a href="../img/touxiang1.jpg" class="att"><img src="../img/touxiang1.jpg" class="img-responsive"></a></li>
+                    <div class="clearfix"></div>
+                </ul>
+            </div>
+            <div>
+                <p><i>2017-2-14</i><b>)</b></p>
+                <ul>
+                    <li><a href="../img/touxiang2.jpg" class="att"><img src="../img/touxiang2.jpg" class="img-responsive"></a></li>
+                    <li><a href="../img/touxiang2.jpg" class="att"><img src="../img/touxiang2.jpg" class="img-responsive"></a></li>
+                    <li><a href="../img/touxiang2.jpg" class="att"><img src="../img/touxiang2.jpg" class="img-responsive"></a></li>
+                    <div class="clearfix"></div>
+                </ul>
+                <ul>
+                    <li><a href="../img/touxiang3.jpg" class="att"><img src="../img/touxiang3.jpg" class="img-responsive" ></a></li>
+                    <li><a href="../img/touxiang3.jpg" class="att"><img src="../img/touxiang3.jpg" class="img-responsive"></a></li>
+                    <li><a href="../img/touxiang3.jpg" class="att"><img src="../img/touxiang3.jpg" class="img-responsive"></a></li>
+                    <div class="clearfix"></div>
+                </ul>
+            </div>
+            <!-- 已显示全部 -->
+            <div class="with-line">已显示全部</div>
+        </div>
+    </div>
+</div>
+
+<!-- 模态框（Modal） -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <p data-dismiss="modal" aria-hidden="true" onClick="window.location.href='mypicture_edit.html'" class="edit_xiangce"><span class="glyphicon glyphicon-pencil"></span>编辑相册</p>
+                <p data-dismiss="modal" aria-hidden="true" onClick="window.location.href='mypicture_del.html'"><span class="glyphicon glyphicon-list-alt"></span>管理照片</p>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal -->
+</div>
+
+<script>
+    $(function(){
+        $('#thumbs ul li a').touchTouch();
+    });
+</script>
+
+</body>
+</html>

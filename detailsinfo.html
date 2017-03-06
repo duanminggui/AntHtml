@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+    <title>详细资料</title>
+    <!-- swiper css、js -->
+    <link rel="stylesheet" type="text/css" href="public/swiper-3.4.1.min.css">
+    <script src="js/swiper-3.4.1.min (1).js"></script>
+    <!-- bootstarp css、js -->
+    <link rel="stylesheet" type="text/css" href="public/bootstrap.min.css">
+	<script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <!-- 日期css、js -->
+    <link rel="stylesheet" type="text/css" href="public/LCalendar.css">
+    <script src="public/LCalendar.js"></script>
+    <!-- 本地css、js -->
+    <link rel="stylesheet" type="text/css" href="css/detailsinfo.css">
+    <script src="js/main.js"></script>
+</head>
+<body>
+
+<div style="width:100%; height:100%;background: #F3F5F7;" class="xiangxi_info">
+<!--------社交顶部内容-------->
+    <div class="navbar-fixed-top sj_header">
+        <ul>
+            <li><a href="javascript:history.back(-1)"><span class="glyphicon glyphicon-menu-left"></span></a></li>
+            <li><a href="#"><p>详细资料</p></a></li>
+        </ul>
+    </div>
+<!--------社交主体内容-------->
+    <div class="my_con">
+        <p class="bianji"><span class="glyphicon glyphicon-edit"></span>编辑资料<i class="glyphicon glyphicon-menu-right"></i></p>
+        <div>
+            <ul>
+                <li>
+                    <i>昵称</i>
+                    <span>某男某女一起过</span>
+                </li>
+                <li>
+                    <i>性别</i>
+                    <span>男</span>
+                </li>
+                <li>
+                    <i>生日</i>
+                    <span>1995-08-18</span>
+                </li>
+                <li>
+                    <i>邮箱</i>
+                    <span>1234567895@qq.com</span>
+                </li>
+                <li>
+                    <i>等级</i>
+                    <span>LV 14</span>
+                    <b class="glyphicon glyphicon-menu-right aa"></b>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <i>职业</i>
+                    <span>学生</span>
+                </li>
+                <li>
+                    <i>学校</i>
+                    <span>滁州职业技术术学院</span>
+                </li>
+                <li>
+                    <i>所在地</i>
+                    <span>浙江 金华</span>
+                </li>
+            </ul>
+            <div class="shuoming">
+                <i>介绍自己</i>
+                <p>今年北电表演学院共有8526人报考，同比增幅超过11%，北电表演学院也成为全国报人数最多的表演院系北电表演学院也成为全国报考人数最多的表演院最多的表演院系多的表演院系</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------- 编辑资料 -------------->
+<div style="width:100%; height:100%;background: #F3F5F7;" class="edit_info">
+    <!--------社交顶部内容-------->
+    <div class="navbar-fixed-top sj_header">
+        <ul>
+            <li><a href=""><span class="glyphicon glyphicon-menu-left edit_fq"></span></a></li>
+            <li><a href="#"><p>编辑资料</p></a></li>
+            <li><a href="#"><p class="wangcheng">完成</p></a></li>
+        </ul>
+    </div>
+    <!--------社交主体内容-------->
+    <div class="my_con">
+        <div>
+            <ul>
+                <li>
+                    <i>昵称</i>
+                    <input type="text" placeholder="填写昵称">
+                </li>
+                <li class="edit_sex">
+                    <i>性别</i>
+                    <span>男</span>
+                </li>
+                <li>
+                    <i>生日</i>
+                    <input type="text" name="start_date" id="start_date" placeholder="选择日期">
+                </li>
+                <li>
+                    <i>邮箱</i>
+                    <input type="text" placeholder="你的邮箱">
+                </li>
+            </ul>
+            <ul>
+                <li class="zy_show">
+                    <i>职业</i>
+                    <span></span>
+                    <b class="glyphicon glyphicon-menu-right aa"></b>
+                </li>
+                <li>
+                    <i>公司</i>
+                    <input type="text" placeholder="填写公司,发现同事">
+                </li>
+                <li>
+                    <i>学校</i>
+                    <input type="text" placeholder="填写学校,发现校友">
+                </li>
+                <li>
+                    <i>所在地</i>
+                    <span>浙江 金华</span>
+                    <b class="glyphicon glyphicon-menu-right aa"></b>
+                </li>
+            </ul>
+            <div class="shuoming">
+                <i>个人说明</i>
+                <textarea cols="100%" rows="8" placeholder="介绍下自己吧!" name="" id=""></textarea>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------- 职业选择 -------------->
+<div style="width:100%; height:100%;background: #F3F5F7;" class="zhiye_info">
+    <!--------社交顶部内容-------->
+    <div class="navbar-fixed-top sj_header">
+        <ul>
+            <li><a href=""><span class="glyphicon glyphicon-menu-left zy_btn"></span></a></li>
+            <li><a href="#"><p>职业</p></a></li>
+        </ul>
+    </div>
+    <!--------社交主体内容-------->
+    <div class="my_con zecho_li">
+        <ul>
+            <li><b class="blue">IT</b><i>计算机/互联网/通信</i><input type="radio" name="zy_input" value="计算机/互联网/通信"></li>
+            <li><b class="blue">制造</b><i>计算机</i><input type="radio" name="zy_input" value="计算机"></li>
+            <li><b class="blue">医疗</b><i>互联网</i><input type="radio" name="zy_input" value="互联网"></li>
+            <li><b class="yello">金融</b><i>金融</i><input type="radio" name="zy_input" value="金融"></li>
+            <li><b class="yello">商业</b><i>商业</i><input type="radio" name="zy_input" value="商业"></li>
+            <li><b class="or">文化</b><i>文化</i><input type="radio" name="zy_input" value="文化"></li>
+            <li><b class="or">艺术</b><i>艺术</i><input type="radio" name="zy_input" value="艺术"></li>
+            <li><b class="gr">法律</b><i>法律</i><input type="radio" name="zy_input" value="法律"></li>
+            <li><b class="gr">教育</b><i>教育</i><input type="radio" name="zy_input" value="教育"></li>
+            <li><b class="gr">行政</b><i>行政</i><input type="radio" name="zy_input" value="行政"></li>
+            <li><b class="zs">模特</b><i>模特</i><input type="radio" name="zy_input" value="模特"></li>
+            <li><b class="zs">空姐</b><i>空姐</i><input type="radio" name="zy_input" value="空姐"></li>
+            <li><b class="fh">学生</b><i>学生</i><input type="radio" name="zy_input" value="学生"></li>
+            <li><i>其它职业</i><input type="radio" name="zy_input" value="其它职业"></li>
+        </ul>
+    </div>
+</div>
+<!-------------- 性别选择 -------------->
+<div class="edit_sex_con">
+    <div class="edit_sex_cho">
+        <div class="edit_btn">
+            <span class="quxiao">取消</span><span class="quren">确定</span>
+            <div class="clearfix"></div>
+        </div>
+        <ul class="edit_ul">
+            <li>
+                <p>
+                    <input type="radio" name="sex_radio" value="" checked>
+                    <span>男</span>
+                </p>
+                <p>
+                    <input type="radio" name="sex_radio" value="">
+                    <span>女</span>
+                </p>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<script type="text/javascript">
+    var calendar = new LCalendar();
+    calendar.init({
+        'trigger': '#start_date', //标签id
+        'type': 'date', //date 调出日期选择 datetime 调出日期时间选择 time 调出时间选择 ym 调出年月选择,
+        'minDate': (new Date().getFullYear()-3) + '-' + 1 + '-' + 1, //�?小日�?
+        'maxDate': (new Date().getFullYear()+3) + '-' + 12 + '-' + 31 //�?大日�?
+    });
+</script>
+
+</body>
+</html>

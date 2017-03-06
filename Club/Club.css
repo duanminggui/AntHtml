@@ -1,0 +1,290 @@
+﻿*{
+    margin:0;
+    padding:0;
+    font-family:"微软雅黑 ";
+    list-style:none;
+}
+html, body {
+    background-color: #F3F5F7;
+    font-size: 14px;
+    color:#454545;
+    margin: 0;
+    padding: 0;
+}
+.swiper-slide {
+    text-align: center;
+}
+/*--------社交顶部内容-------*/
+.sj_header{
+    background-color:#34394B;
+    height: 50px;
+    line-height: 50px;
+}
+.sj_header>ul>li{
+    float: left;
+    margin: 0 auto;
+}
+.sj_header>ul>li:nth-child(1){
+    width: 100%;
+}
+.sj_header>ul>li:nth-child(1) p{
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+}
+.sj_header>ul>li:nth-child(2){
+    position: absolute;
+    right: 0;
+}
+.sj_header>ul>li:nth-child(2) span{
+    padding-right: 15px;
+    font-size: 17px;
+    color: #ffffff;
+    margin-top: 15px;
+}
+.sj_header>ul>li a:link{
+    color: #fff;
+    text-decoration: none;
+}
+.sj_header>ul>li a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.sj_header>ul>li a:visited{
+    color: #fff;
+    text-decoration: none;
+}
+/* 点击加号出现的内容 */
+.tanchukuang{
+    position: fixed;
+    right: -2px;
+    background-color: rgba(0,0,0,0.7);
+    padding: 15px 15px 5px 15px;
+    z-index: 6666;
+    top: -200px;
+    font-size: 15px;
+    color: #fafafa;
+}
+.tanchukuang ul li{
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.tanchukuang ul li span{
+    margin-right: 8px;
+    font-size: 13px;
+    color: #eee;
+}
+@media(min-width:430px){
+}
+.con{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #F3F5F7;
+}
+/*-------活动背景图--------*/
+.swiper_bg{
+    width: 100%;
+    height: 150px;
+}
+/*-------社团列表-------*/
+.club_list{
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+}
+.club_list .list_con{
+    width: 100%;
+    height: 55px;
+    line-height: 55px;
+    border-bottom: 1px solid #F3F5F7;
+    margin-top: -10px;
+}
+.club_list .list_con:last-child{
+    border-bottom: none;
+}
+.club_list .list_con ul li{
+    float: left;
+}
+.club_list .list_con ul li:nth-child(1){
+    position: relative;
+    padding:0 10px;
+}
+.club_list .list_con ul li img{
+    width: 38px;
+    height: 38px;
+    float: left;
+    border-radius: 50%;
+    background-color:#F3F5F7;
+    border: 1px solid #eeeeee;
+    margin-top: 8px;
+    margin-left: 5px;
+}
+.club_list .list_con ul li:nth-child(1) span{
+    position: absolute;
+    left: 10px;
+    top: 8px;
+    background-color: rgba(255,40,75,0.7);
+    color: #ffffff;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    border-radius: 50%;
+    z-index: 555;
+    font-size: 12px;
+}
+.club_list .list_con ul li:nth-child(2){
+    color: #454545;
+    font-size: 15px;
+}
+.club_list .list_con ul li:nth-child(3){
+    position: absolute;
+    right: 10px;
+    color: #999;
+    font-size: 12px;
+}
+.club_list .list_con ul li:nth-child(3) i{
+    font-style: normal;
+    padding: 0 2px;
+}
+
+/*--------社交底部导航-------*/
+.sj_foot{
+    background-color: #34394B;
+    color: #C3C6C9;
+    font-size: 13px;
+    text-align: center;
+    border-top: 1px solid #F3F5F7;
+    z-index: 7777;
+}
+.sj_foot ul li{
+    float: left;
+    width: 20%;
+    padding:6px 0 4px 0;
+    cursor: pointer;
+}
+.sj_foot ul li p{
+    margin: 0;
+    font-weight: bold;
+}
+.sj_foot ul li a:link{
+    color: #C3C6C9;
+    text-decoration: none;
+}
+.sj_foot ul li a:hover{
+    color: #C3C6C9;
+    text-decoration: none;
+}
+.sj_foot ul li a:visited{
+    color: #C3C6C9;
+    text-decoration: none;
+}
+.sj_foot ul li a span{
+    color: #B7BBBF;
+    font-size: 18px;
+    text-align: center;
+}
+/* 发布内容 */
+.fabu_btn span{
+    font-size: 33px;
+    margin-top: 2px;
+    color:#34394B ;
+    z-index: 9999;
+}
+.fabu_btn span{
+    font-size: 33px;
+    margin-top: 2px;
+    color:#fff ;
+    z-index: 9999;
+}
+.fabu_con{
+    position: fixed;
+    bottom:-180px;
+    width: 100%;
+    height: 170px;
+    background-color:rgba(249, 249, 249,0.3);
+    z-index: 8888;
+    cursor: pointer;
+    padding-top: 15px;
+    box-shadow: 0 0 70px 5px rgba(249, 249, 249,0.3);
+}
+.fabu_con_list{
+    color: #666;
+    font-size: 14px;
+    padding: 0 28px;
+}
+.fabu_con_list .swiper-slide{
+    text-align: center;
+}
+.fabu_con_list .swiper-slide p{
+    width: 70px;
+    height: 70px;
+    margin:auto;
+    border-radius: 50%;
+    border: 1px solid #eee;
+    -webkit-box-shadow:0 5px 5px rgba(105,105,105, .5);
+    -moz-box-shadow:0 5px 5px rgba(105,105,105, .5);
+    box-shadow:0 5px 5px rgba(105,105,105, .5);
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+.fabu_con_list .swiper-slide p span{
+    display: block;
+    cursor: pointer;
+    font-size: 22px;
+    color: #FF284B;
+    margin-top: 12px;
+    margin-bottom: 4px;
+}
+.fabu_con_list .swiper-slide p i{
+    font-style: normal;
+    color: #666666;
+    font-size: 13px;
+}
+.fabu_dbclick{
+    position: absolute;
+    font-size: 33px;
+    color:#fff ;
+    bottom: -2px;
+    width: 100%;
+    text-align: center;
+}
+.fabu_dbclick:hover{
+    color:#fff ;
+}
+.fabu_dbclick:visited{
+    color:#fff ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

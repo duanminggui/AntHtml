@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="GB2312" name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+    <title>草稿箱</title>
+    <link rel="stylesheet" type="text/css" href="edit.css">
+    <link rel="stylesheet" type="text/css" href="../public/swiper-3.4.1.min.css">
+    <link rel="stylesheet" type="text/css" href="../public/bootstrap.min.css">
+	<script type="text/javascript" src="../js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="../js/bootstrap.js"></script>
+    <script type="text/javascript" src="../js/swiper-3.4.1.min%20(1).js"></script>
+    <script type="text/javascript" src="../js/main.js"></script>
+</head>
+<body>
+
+<div style="width:100%; height:100%">
+<!--------草稿箱顶部内容-------->
+    <div class="navbar-fixed-top sj_header">
+        <ul class="all_ul">
+            <li><a href="javascript:history.back(-1)"><span class="glyphicon glyphicon-menu-left"></span></a></li>
+            <li><a href="#"><p id="analytic" ><i>发表</i></p></a></li>
+        </ul>
+    </div>
+<!--------草稿箱主体内容-------->
+    <div class="my_con">
+        <form method="post" name="form1" action="">
+            <textarea class="emotion" id="saytext" name="saytext" placeholder="你想说点什么。。。" cols="100%"></textarea>
+            <div class="edit_btn">
+                <p><a href="#"><span class="glyphicon glyphicon-map-marker"></span>位置分享</a></p>
+                <p class="ge_btn"><a href="#"><span class='glyphicon glyphicon-globe'></span>公开</a></p>
+            </div>
+        </form>
+    </div>
+    <div class="navbar-fixed-bottom sj_foot">
+        <ul>
+            <li><a href="#"><img src="../img/picture.png"></a></li>
+            <li><a href="#"><img src="../img/@.png"></a></li>
+            <li><a href="#"><img src="../img/jinhao.png"></a></li>
+            <li id="face"><a href="#"><img src="../img/xiaolian.png"></a></li>
+            <li class="jiahao"><a href="#"><img src="../img/+.png"></a></li>
+        </ul>
+        <!--------表情-------->
+        <div class="hi_div" id="hi_div"></div>
+    </div>
+</div>
+<div class="populic_con">
+    <div class="po_header">
+        <ul class="all_ul">
+            <li><a href="#"><p>选择分享范围</p></a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-menu-right pop_btn"></span></a></li>
+        </ul>
+    </div>
+    <div class="popu_list">
+        <ul>
+            <li>
+                <input type="radio" name="po_radio" checked><div><p>公开</p><i>所有人可见</i></div>
+            </li>
+            <li>
+                <input type="radio" name="po_radio"><div><p>好友圈</p><i>相互关注好友可见</i></div>
+            </li>
+            <li>
+                <input type="radio" name="po_radio"><div><p>仅自己可见</p></div>
+            </li>
+        </ul>
+        <div>
+            <p>指定部分好友可见</p>
+            <div>
+                <p><a href="#"><span>+</span><i>选择好友</i></a></p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--<div id="out" style="height:auto;width:100%;padding:10px;"></div>-->
+<script type="text/javascript" src="js/jquery-1.8.0.min.js"></script>
+<script type="text/javascript" src="../js/jquery.sinaEmotion.js"></script>
+<script type="text/javascript">
+    // 绑定表情
+    $('#face').SinaEmotion($('.emotion'));
+    // 测试本地解析
+    /*function out(){
+        var inputText = $('.emotion').val();
+        $('#out').html(AnalyticEmotion(inputText));
+    }*/
+</script>
+</body>
+</html>

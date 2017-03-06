@@ -1,0 +1,349 @@
+﻿*{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+html, body {
+    background: #fff;
+}
+body {
+	background: #fff;
+	font-size: 14px;
+	color:#000;
+	margin: 0;
+	padding: 0;
+}
+/*--------社交顶部内容-------*/
+.sj_header{
+	background-color:#34394B;
+    height: 50px;
+    line-height: 50px;
+}
+.sj_header>ul>li{
+    float: left;
+}
+.sj_header>ul>li:nth-child(1){
+    width: 50%;
+    text-align: left;
+}
+.sj_header>ul>li:nth-child(1) span{
+    padding-left: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    cursor: pointer;
+}
+.sj_header>ul>li:nth-child(2){
+    width: 50%;
+    text-align: right;
+}
+.sj_header>ul>li:nth-child(2) p{
+    padding-right: 15px;
+}
+.sj_header>ul>li:nth-child(2) p i{
+    font-size: 13px;
+    border: 1px solid #ffffff;
+    font-style: normal;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.sj_header>ul>li a:link{
+    color: #fff;
+    text-decoration: none;
+}
+.sj_header>ul>li a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.sj_header>ul>li a:visited{
+    color: #fff;
+    text-decoration: none;
+}
+@media(min-width:430px){
+
+}
+/*-------主体内容--------*/
+.my_con{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+}
+.emotion{
+    max-width: 100%;
+    min-height: 180px;
+    border: none;
+    padding: 0 15px;
+    font-size: 14px;
+    border-bottom: 4px solid #F3F5F7;
+    position: relative;
+}
+textarea:focus{
+    outline: none;
+}
+.edit_btn{
+    font-size: 13px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+.edit_btn p{
+    margin: 0;
+}
+.edit_btn p:first-child{
+    float: left;
+}
+.edit_btn p:last-child{
+    float: right;
+}
+.edit_btn a:link{
+    color: #507DAF;
+}
+.edit_btn a:hover{
+    color: #507DAF;
+    text-decoration: none;
+}
+.edit_btn a:visited{
+    color: #507DAF;
+}
+.edit_btn a span{
+    margin-right: 3px;
+    float: left;
+}
+.edit_btn a img{
+    width: 12px;
+    margin-right: 3px;
+    margin-top: -3px;
+}
+/*--------草稿箱底部导航-------*/
+.sj_foot{
+    background-color: #fafafa;
+    text-align: center;
+    border-top: 1px solid #F3F5F7;
+}
+.sj_foot ul{
+    clear: both;
+    height: 35px;
+    line-height: 35px;
+    margin-bottom: 0;
+}
+.sj_foot ul li{
+    float: left;
+    width: 20%;
+    cursor: pointer;
+}
+.sj_foot ul li a:link{
+    color: #c9c9c9;
+    text-decoration: none;
+}
+.sj_foot ul li a:hover{
+    color: #c9c9c9;
+    text-decoration: none;
+}
+.sj_foot ul li a:visited{
+    color: #c9c9c9;
+    text-decoration: none;
+}
+.sj_foot ul li img{
+    width: 20px;
+}
+.hi_div{
+    clear: both;
+    width: 100%;
+    position: relative;
+}
+/* emotions */
+#emotions{
+    left:0;
+    bottom: 0;
+    width:100%;
+    font-size:12px;
+    background:#fafafa;
+    border-top: 1px solid #eee;
+    overflow: scroll;
+}
+#emotions a{
+    color:#9ABBC8;
+    padding:2px 7px;
+    text-decoration:none;
+}
+#emotions img{
+    border:0;
+}
+#emotions .categorys{
+    color:#ccc;
+    height:28px;
+    line-height: 24px;
+    background-color: #ffffff;
+    position: fixed;
+    bottom: 0;
+    text-align: left;
+    width: 100%;
+    overflow: hidden;
+}
+#emotions .categorys a{
+    display:inline-block;
+    padding: 3px 12px;
+    text-align: center;
+}
+#emotions .categorys a:hover{
+    text-decoration:none;
+}
+#emotions .categorys a.current{
+    cursor:default;
+    background:#fafafa;
+}
+#emotions .container{
+    clear: both;
+    height: 177px;
+    overflow: scroll;
+    padding: 10px 0 15px 8px;
+}
+#emotions .container a{
+    float:left;
+    width:33px;
+    height:32px;
+    text-align:center;
+}
+#emotions .container a:hover{
+    z-index:2;
+    position:relative;
+    border:1px solid #0095cd;
+}
+/* populic_con */
+.populic_con{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: -10px;
+    right: -100%;
+    z-index: 9999;
+    background-color: #F3F5F7;
+    color: #555;
+}
+.populic_con .po_header{
+    width: 100%;
+    background-color:#34394B;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 15px;
+}
+.po_header>ul>li{
+    float: left;
+}
+.po_header>ul>li p{
+   margin: 0;
+}
+.po_header>ul>li:nth-child(1){
+    width: 50%;
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+}
+.po_header>ul>li:nth-child(2){
+    width: 50%;
+    text-align: right;
+    font-size: 16px;
+}
+.po_header>ul>li a:link{
+    color: #fff;
+    text-decoration: none;
+}
+.po_header>ul>li a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.po_header>ul>li a:visited{
+    color: #fff;
+    text-decoration: none;
+}
+.populic_con .popu_list{
+    background-color: #ffffff;
+    width: 100%;
+}
+.populic_con .popu_list ul li{
+    width: 100%;
+    border-bottom: 1px solid #eeeeee;
+    clear: both;
+    position: relative;
+    height: 60px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.populic_con .popu_list ul li:nth-child(1){
+    padding-top: 10px;
+}
+.populic_con .popu_list ul li:nth-child(2){
+    padding-top: 10px;
+}
+.populic_con .popu_list ul li:nth-child(3){
+    line-height: 60px;
+}
+.populic_con .popu_list ul li input{
+    left: 10px;
+    top:17px ;
+    position: absolute;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+}
+.populic_con .popu_list ul li div{
+    padding-left: 36px;
+}
+.populic_con .popu_list ul li p{
+    margin: 0;
+ }
+.populic_con .popu_list ul li i{
+    color: #999999;
+    font-size: 12px;
+    font-style: normal;
+}
+input:focus{
+    outline: none;
+}
+.popu_list>div>p{
+    background-color: #F3F5F7;
+    margin-top: -10px;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 15px;
+    color: #777;
+    margin-bottom: 0;
+}
+.popu_list>div>div{
+    background-color: #ffffff;
+    padding: 0 10px;
+}
+.popu_list>div>div>p{
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 0;
+}
+.popu_list>div>div>p span{
+    color: #ccc;
+    margin-right: 8px;
+    font-size: 24px;
+    padding: 0;
+    float: left;
+}
+.popu_list>div>div>p i{
+    color: #555;
+    font-size: 14px;
+    padding: 0;
+    font-style: normal;
+}
+.popu_list a:hover{
+   text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

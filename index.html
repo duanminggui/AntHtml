@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+    <title>社交首页</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="public/swiper-3.4.1.min.css">
+    <link rel="stylesheet" type="text/css" href="public/bootstrap.min.css">
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/swiper-3.4.1.min (1).js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+<div style="width:100%; height:100%">
+    <!--------社交顶部内容-------->
+    <div class="navbar-fixed-top sj_header">
+        <ul>
+            <li><a href="#"><p>首页</p></a></li>
+            <li class="cl_span"><a href="#"><span class="he_one he_active">热门</span><span class="he_two">关注</span></a></li>
+            <li>
+                <span class="glyphicon glyphicon-plus add_btn"></span>
+            </li>
+        </ul>
+    </div>
+    <!--点击加号出现的内容-->
+    <div class="tanchukuang">
+        <ul>
+            <li><span class='glyphicon glyphicon-plus-sign'></span>添加朋友</li>
+            <li><span class='glyphicon glyphicon-comment'></span>群聊</li>
+            <li><span class='glyphicon glyphicon-eye-open'></span>去关注</li>
+            <li><span class='glyphicon glyphicon-camera'></span>拍摄</li>
+            <li><span class='glyphicon glyphicon-picture'></span>相册</li>
+            <li><span class='glyphicon glyphicon-envelope'></span>帮助与反馈</li>
+        </ul>
+    </div>
+    <!--------社交主体内容-------->
+    <div class="swiper-container swiper-container-h">
+        <div class="swiper-wrapper">
+            <!-- 开聊 -->
+            <div class="swiper-slide">
+                <div class="slide_bg">
+                    <div class="swiper-container swiper_bg">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="img/touxiang1.jpg"></div>
+                            <div class="swiper-slide"><img src="img/touxiang1.jpg"></div>
+                            <div class="swiper-slide"><img src="img/touxiang1.jpg"></div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+                <div class="sw_one_top">
+                    <ul>
+                        <li><span class="glyphicon glyphicon-education"></span>今日明星榜</li>
+                        <li>
+                            <div class="swiper-container star_touxiang">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide"><img src="img/touxiang.jpeg"></div>
+                                    <div class="swiper-slide"><img src="img/touxiang.jpeg"></div>
+                                    <div class="swiper-slide"><img src="img/touxiang.jpeg"></div>
+                                    <div class="swiper-slide"><img src="img/touxiang.jpeg"></div>
+                                    <div class="swiper-slide"><img src="img/touxiang.jpeg"></div>
+                                    <div class="swiper-slide"><img src="img/touxiang.jpeg"></div>
+                                    <div class="swiper-slide"><img src="img/touxiang.jpeg"></div>
+                                    <div class="swiper-slide"><img src="img/touxiang.jpeg"></div>
+                                    <div class="swiper-slide"><img src="img/touxiang.jpeg"></div>
+                                    <div class="swiper-slide"><img src="img/touxiang.jpeg"></div>
+                                </div>
+                            </div>
+                        </li>
+                        <div class="clearfix"></div>
+                    </ul>
+                </div>
+                <div class="sw_one_bottom">
+                    <div>
+                        <div class="da_li">
+                            <ul>
+                                <li>
+                                    <img src="img/touxiang.jpeg">
+                                    <p>
+                                        <i>牛子元</i>
+                                        <span>2017年2月14日 14.44</span>
+                                    </p>
+                                </li>
+                                <li class="hua_li"><span class="glyphicon glyphicon-menu-down" data-toggle="modal" data-target="#myModal"></span></li>
+                            </ul>
+                            <div class="da_con">
+                                <div class="da_con_top" onclick="window.location.href='zhengwen/zhengwen_detail.html'">
+                                    <p><a href="#">#话题你我他#</a>现代的辅助技术能够识别并朗读由生成的内容和特定的字符。为了避免 屏幕识读设备抓取非故意的和可能产生混淆的输出内容（尤其是当图标纯粹作为装饰用途时），我们为这些图标设置了属性。</p>
+                                </div>
+                                <div class="zhuanfa" onclick="window.location.href='zhengwen/zhengwen_detail.html'">
+                                    <div class="zhuanfa_img"><img src="img/touxiang2.jpg"></div>
+                                    <p>现代的辅助技术能够识别并朗读由 CSS 生成的内容和特定的</p>
+                                </div>
+                                <div class="da_con_bottom">
+                                    <p><span class="glyphicon glyphicon-new-window"><i>转发</i></span></p>
+                                    <p><span class="glyphicon glyphicon-comment"><i>122</i></span></p>
+                                    <p><span class="glyphicon glyphicon-heart"><i>122</i></span></p>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="da_li">
+                            <ul>
+                                <li>
+                                    <img src="img/touxiang.jpeg">
+                                    <p>
+                                        <i>牛子元</i>
+                                        <span>2017年2月14日 14.44</span>
+                                    </p>
+                                </li>
+                                <li class="hua_li"><span class="glyphicon glyphicon-menu-down" data-toggle="modal" data-target="#myModal"></span></li>
+                            </ul>
+                            <div class="da_con">
+                                <div class="da_con_top" onclick="window.location.href='zhengwen/zhengwen_detail.html'">
+                                    <p><a href="#">#话题你我他#</a>现代的辅助技术能够识别并朗读由生成的内容和特定的字符。为了避免 屏幕识读设备抓取非故意的和可能产生混淆的输出内容（尤其是当图标纯粹作为装饰用途时），我们为这些图标设置了属性。</p>
+                                </div>
+                                <div class="zhuanfa" onclick="window.location.href='zhengwen/zhengwen_detail.html'">
+                                    <div class="zhuanfa_img"><img src="img/touxiang2.jpg"></div>
+                                    <p>现代的辅助技术能够识别并朗读由 CSS 生成的内容和特定的</p>
+                                </div>
+                                <div class="da_con_bottom">
+                                    <p><span class="glyphicon glyphicon-new-window"><i>转发</i></span></p>
+                                    <p><span class="glyphicon glyphicon-comment"><i>122</i></span></p>
+                                    <p><span class="glyphicon glyphicon-heart"><i>122</i></span></p>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="da_li">
+                            <ul>
+                                <li>
+                                    <img src="img/touxiang.jpeg">
+                                    <p>
+                                        <i>牛子元</i>
+                                        <span>2017年2月14日 14.44</span>
+                                    </p>
+                                </li>
+                                <li class="hua_li"><span class="glyphicon glyphicon-menu-down" data-toggle="modal" data-target="#myModal"></span></li>
+                            </ul>
+                            <div class="da_con">
+                                <div class="da_con_top" onclick="window.location.href='zhengwen/zhengwen_detail.html'">
+                                    <p><a href="#">#话题你我他#</a>现代的辅助技术能够识别并朗读由生成的内容和特定的字符。为了避免 屏幕识读设备抓取非故意的和可能产生混淆的输出内容（尤其是当图标纯粹作为装饰用途时），我们为这些图标设置了属性。</p>
+                                </div>
+                                <div class="zhuanfa" onclick="window.location.href='zhengwen/zhengwen_detail.html'">
+                                    <div class="zhuanfa_img"><img src="img/touxiang2.jpg"></div>
+                                    <p>现代的辅助技术能够识别并朗读由 CSS 生成的内容和特定的</p>
+                                </div>
+                                <div class="da_con_bottom">
+                                    <p><span class="glyphicon glyphicon-new-window"><i>转发</i></span></p>
+                                    <p><span class="glyphicon glyphicon-comment"><i>122</i></span></p>
+                                    <p><span class="glyphicon glyphicon-heart"><i>122</i></span></p>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 热门 -->
+            <div class="swiper-slide">
+                <div class="sw_one_bottom">
+                    <div>
+                        <div class="da_li">
+                            <ul>
+                                <li>
+                                    <img src="img/touxiang.jpeg">
+                                    <p>
+                                        <i>牛子元</i>
+                                        <span>2017年2月14日 14.44</span>
+                                    </p>
+                                </li>
+                                <li class="hua_li"><span class="glyphicon glyphicon-menu-down" data-toggle="modal" data-target="#myModal"></span></li>
+                            </ul>
+                            <div class="da_con">
+                                <div class="da_con_top" onclick="window.location.href='zhengwen/zhengwen_detail.html'">
+                                    <p><a href="#">#话题你我他#</a>现代的辅助技术能够识别并朗读由生成的内容和特定的字符。为了避免 屏幕识读设备抓取非故意的和可能产生混淆的输出内容（尤其是当图标纯粹作为装饰用途时），我们为这些图标设置了属性。</p>
+                                </div>
+                                <div class="zhuanfa" onclick="window.location.href='zhengwen/zhengwen_detail.html'">
+                                    <div class="zhuanfa_img"><img src="img/touxiang2.jpg"></div>
+                                    <p>现代的辅助技术能够识别并朗读由 CSS 生成的内容和特定的</p>
+                                </div>
+                                <div class="da_con_bottom">
+                                    <p><span class="glyphicon glyphicon-new-window"><i>转发</i></span></p>
+                                    <p><span class="glyphicon glyphicon-comment"><i>122</i></span></p>
+                                    <p><span class="glyphicon glyphicon-heart"><i>122</i></span></p>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="da_li">
+                            <ul>
+                                <li>
+                                    <img src="img/touxiang.jpeg">
+                                    <p>
+                                        <i>牛子元</i>
+                                        <span>2017年2月14日 14.44</span>
+                                    </p>
+                                </li>
+                                <li class="hua_li"><span class="glyphicon glyphicon-menu-down" data-toggle="modal" data-target="#myModal"></span></li>
+                            </ul>
+                            <div class="da_con">
+                                <div class="da_con_top" onclick="window.location.href='zhengwen/zhengwen_detail.html'">
+                                    <p><a href="#">#话题你我他#</a>现代的辅助技术能够识别并朗读由生成的内容和特定的字符。为了避免 屏幕识读设备抓取非故意的和可能产生混淆的输出内容（尤其是当图标纯粹作为装饰用途时），我们为这些图标设置了属性。</p>
+                                </div>
+                                <div class="zhuanfa" onclick="window.location.href='zhengwen/zhengwen_detail.html'">
+                                    <div class="zhuanfa_img"><img src="img/touxiang2.jpg"></div>
+                                    <p>现代的辅助技术能够识别并朗读由 CSS 生成的内容和特定的</p>
+                                </div>
+                                <div class="da_con_bottom">
+                                    <p><span class="glyphicon glyphicon-new-window"><i>转发</i></span></p>
+                                    <p><span class="glyphicon glyphicon-comment"><i>122</i></span></p>
+                                    <p><span class="glyphicon glyphicon-heart"><i>122</i></span></p>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="da_li">
+                            <ul>
+                                <li>
+                                    <img src="img/touxiang.jpeg">
+                                    <p>
+                                        <i>牛子元</i>
+                                        <span>2017年2月14日 14.44</span>
+                                    </p>
+                                </li>
+                                <li class="hua_li"><span class="glyphicon glyphicon-menu-down" data-toggle="modal" data-target="#myModal"></span></li>
+                            </ul>
+                            <div class="da_con">
+                                <div class="da_con_top" onclick="window.location.href='zhengwen/zhengwen_detail.html'">
+                                    <p><a href="#">#话题你我他#</a>现代的辅助技术能够识别并朗读由生成的内容和特定的字符。为了避免 屏幕识读设备抓取非故意的和可能产生混淆的输出内容（尤其是当图标纯粹作为装饰用途时），我们为这些图标设置了属性。</p>
+                                </div>
+                                <div class="zhuanfa" onclick="window.location.href='zhengwen/zhengwen_detail.html'">
+                                    <div class="zhuanfa_img"><img src="img/touxiang2.jpg"></div>
+                                    <p>现代的辅助技术能够识别并朗读由 CSS 生成的内容和特定的</p>
+                                </div>
+                                <div class="da_con_bottom">
+                                    <p><span class="glyphicon glyphicon-new-window"><i>转发</i></span></p>
+                                    <p><span class="glyphicon glyphicon-comment"><i>122</i></span></p>
+                                    <p><span class="glyphicon glyphicon-heart"><i>122</i></span></p>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------社交底部导航-------->
+    <div class="navbar-fixed-bottom sj_foot">
+        <ul>
+            <li class="fo_active"><a href="index.html"><span class="glyphicon glyphicon-home"></span><p>首页</p></a></li>
+            <li><a href="Club/Club.html"><span class="glyphicon glyphicon-cd"></span><p>社团</p></a></li>
+            <li class="fabu_btn"><span class="glyphicon glyphicon-edit"></span></li>
+            <li><a href="periphery.html"><span class="glyphicon glyphicon-screenshot"></span><p>周边</p></a></li>
+            <li><a href="my.html"><span class="glyphicon glyphicon-user"></span><p>我的</p></a></li>
+        </ul>
+    </div>
+</div>
+
+<!-- 模态框（Modal） -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <p data-dismiss="modal" aria-hidden="true" onClick="window.location.href=''"><span class="glyphicon glyphicon-gift"></span>送礼物</p>
+                <p data-dismiss="modal" aria-hidden="true" class="guanli_pic"><span class="glyphicon glyphicon-heart-empty"></span>关注/取消关注</p>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal -->
+</div>
+
+<div class="fabu_con">
+    <a herf="#" class="fabu_dbclick"><span class="glyphicon glyphicon-edit"></span></a>
+    <div class="fabu_bj">
+        <div class="swiper-container fabu_con_list">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><p><span class="glyphicon glyphicon-adjust"></span><i>我我</i></p></div>
+                <div class="swiper-slide"><p><span class="glyphicon glyphicon-adjust"></span><i>我我</i></p></div>
+                <div class="swiper-slide"><p><span class="glyphicon glyphicon-adjust"></span><i>我我</i></p></div>
+                <div class="swiper-slide"><p><span class="glyphicon glyphicon-adjust"></span><i>我我</i></p></div>
+                <div class="swiper-slide"><p><span class="glyphicon glyphicon-adjust"></span><i>我我</i></p></div>
+                <div class="swiper-slide"><p><span class="glyphicon glyphicon-adjust"></span><i>我我</i></p></div>
+                <div class="swiper-slide"><p><span class="glyphicon glyphicon-adjust"></span><i>我我</i></p></div>
+                <div class="swiper-slide"><p><span class="glyphicon glyphicon-adjust"></span><i>我我</i></p></div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    var swiperH = new Swiper('.swiper-container-h', {
+        paginationClickable: true,
+        onSlideChangeEnd: function(swiper){
+            if(swiper.activeIndex==0){
+                $(".sj_header ul li.cl_span span.he_one").addClass("he_active").siblings().removeClass("he_active");
+            }else if(swiper.activeIndex==1){
+                $(".sj_header ul li.cl_span span.he_two").addClass("he_active").siblings().removeClass("he_active");
+            }
+        }
+    });
+    var swiper = new Swiper('.star_touxiang', {
+        slidesPerView: 3,
+        paginationClickable: true,
+        autoplayDisableOnInteraction : false,
+        autoplay : 3000,
+        loop : true,
+    });
+    $(function () {
+        $("[data-toggle='popover']").popover({html : true });
+    })
+    var swiper = new Swiper('.fabu_con_list', {
+        slidesPerView: 2,
+        paginationClickable: true
+    });
+    var swiper = new Swiper('.swiper_bg', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true
+    });
+
+</script>
+
+</body>
+</html>
